@@ -1,0 +1,97 @@
+
+* {
+   box-sizing: border-box;
+}
+
+
+html{
+    
+    background-color: rgb(203, 216, 227);
+}
+
+body{
+background-color: rgb(205, 230, 255);
+color: rgb(57, 57, 122);
+margin-left: 15px;
+margin-right: 15px;
+margin-bottom: 100px;
+padding-bottom: 500px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+
+
+
+#self{
+width: 95px;
+float: right;
+margin-left: 50px;
+}
+
+td,th{
+    border: 2px solid;
+}
+
+table{
+    width: 95px;
+float: right;
+margin-left: 50px;
+}
+
+#voorstel{
+    background-color: rgb(179, 202, 222);
+    padding: 2%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 4px solid rgb(100, 126, 148)
+}
+
+#intresses{
+    background-color: rgb(179, 202, 222);
+    padding: 2%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 4px solid rgb(100, 126, 148)
+}
+
+#inputs{
+    background-color: rgb(162, 188, 210);
+    padding-left: 10px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    margin-right: 1500px;
+    
+}
+
+a:hover{
+    color: rgb(221, 239, 255);
+    font-size: large;
+    border: 5px rgb(93, 113, 130) solid;
+}
+
+.headtext {
+    background: rgb(67, 102, 132);
+    color: rgb(124, 173, 215);
+    display: inline-block; /* ✅ makes background wrap text */
+    margin: 10px;
+    padding: 10px 20px; /* ✅ space inside the box */
+    
+}
+
+
+
+header{
+    background-color: rgb(100, 126, 148);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+
+
+
+.naam{
+    align-self: flex-start;
+}
